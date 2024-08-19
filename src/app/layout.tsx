@@ -8,6 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* Any code displayed here, will be displayed on any page e.g. navbar, footer */}
       <body>{children}</body>
     </html>
   );
