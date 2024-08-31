@@ -1,5 +1,5 @@
 
-interface EventInterface {
+interface EventProps {
     eventName: string,
     date: Date,
     location: string,
@@ -10,9 +10,9 @@ interface EventInterface {
 // TODO: Add CSS, also h1 is same size as p tags
 // description prop can be optional
 
-export default function Event({eventName, date, location, eventType} : EventInterface) {
+export default function Event({eventName, date, location, eventType} : EventProps) {
     return (
-        <div>
+        <div className='bg-color-surface-200'>
             <h1>{eventName}</h1>
             <p>Date: {date.toLocaleDateString()}</p>
             <p>Location: {location}</p>
