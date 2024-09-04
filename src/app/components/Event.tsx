@@ -12,11 +12,11 @@ interface EventProps {
 
 export default function Event({eventName, date, location, eventType} : EventProps) {
     return (
-        <div className='bg-color-surface-200'>
-            <h1>{eventName}</h1>
-            <p>Date: {date.toLocaleDateString()}</p>
-            <p>Location: {location}</p>
-            <p>Event type: {eventType}</p>
+        <div className='bg-color-surface-200 w-2/5 rounded-lg m-8 p-6 space-y-4'>
+            <h1 className='font-bold text text-color-primary-600 underline'>{eventName}</h1>
+            <p><span className='font-bold'>Date: </span>{date.toLocaleDateString(undefined, {dateStyle: "long"})}</p>
+            <p><span className='font-bold'>Location: </span>{location}</p>
+            <p><span className='font-bold'>Event type: </span>{eventType}</p>
         </div>
     )
 }
