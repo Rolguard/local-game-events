@@ -34,4 +34,6 @@
 
 #### 10. Implementing best practices for session management
 
+#### 11. Add to Google Calendar button to integrate all or some Pokemon VGC events automatically into calendar once signed in to Google Account
+
 - E.g. expiring tokens, encryption of usernames and passwords with salt/secret
