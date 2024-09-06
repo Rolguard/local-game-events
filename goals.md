@@ -36,4 +36,6 @@
 
 #### 11. Add to Google Calendar button to integrate all or some Pokemon VGC events automatically into calendar once signed in to Google Account
 
+#### 12. Leaderboard for top Sydney / Australian / OCE players
+
 - E.g. expiring tokens, encryption of usernames and passwords with salt/secret
