@@ -11,7 +11,7 @@ export default function Home() {
       <Link href="/register" className='bg-color-surface-300 rounded-lg mr-8 p-2.5'>Sign up</Link>
       <Link href="/register" className='bg-color-surface-300 rounded-lg mr-8 p-2.5'>Log in</Link>
       </div> */}
-      <h1 className='text-5xl w-fit mb-6 ml-9'>Pokemon Events In Your Area</h1>
+      <h1 className='text-5xl w-fit mt-6 mb-6 ml-9'>Pokemon Events In Your Area</h1>
       
       <Event eventName='Good Games Central Pokemon VGC League Challenge - August' date={new Date(2024, 8, 25)} location='
 857 George St, Ultimo, NSW, AU' eventType='VGC'></Event>
